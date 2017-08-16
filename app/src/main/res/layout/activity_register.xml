@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sergi.fitelite.RegisterActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/registerTitleText"
+            android:textSize="22sp"
+            android:layout_marginTop="30dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20sp"
+            android:hint="@string/registerEmailText"
+            android:id="@+id/editTextEmailRegister"
+            android:inputType="textEmailAddress"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20sp"
+            android:hint="@string/registerPasswordText"
+            android:id="@+id/editTextPasswordRegister"
+            android:inputType="textPassword"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20sp"
+            android:hint="@string/registerNameText"
+            android:id="@+id/editTextNameRegister"
+            android:inputType="textCapWords"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20sp"
+            android:hint="@string/registerSurnameText"
+            android:id="@+id/editTextSurnameRegister"
+            android:inputType="textCapWords"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20sp"
+            android:hint="@string/date_of_birth"
+            android:id="@+id/editTextAgeRegister"
+            android:inputType="date"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20sp"
+            android:hint="@string/registerWeightText"
+            android:id="@+id/editTextWeightRegister"
+            android:inputType="number"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20sp"
+            android:hint="@string/registerPasswordTextText"
+            android:id="@+id/editTextHeightRegister"
+            android:inputType="number"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/registerButton"
+            android:text="@string/registerButtonText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="30sp"
+            android:id="@+id/loginText"
+            android:text="@string/registerLogInText"
+            android:textSize="15sp"
+            />
+    </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

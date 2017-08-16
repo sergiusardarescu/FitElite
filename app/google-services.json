@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "214287351142",
+    "firebase_url": "https://fitelite-c9a70.firebaseio.com",
+    "project_id": "fitelite-c9a70",
+    "storage_bucket": "fitelite-c9a70.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:214287351142:android:370ad4d47ceec6ce",
+        "android_client_info": {
+          "package_name": "com.example.sergi.fitelite"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "214287351142-0d30unpitbtafbcr16gmrkjkdg64ik4l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sergi.fitelite",
+            "certificate_hash": "212a74590d8ffe80824bc06bc84b2d4bb17bbcb0"
+          }
+        },
+        {
+          "client_id": "214287351142-iqu1ibq57ugqgibdj6bo1qkh26tmkp5g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2kzjndQ4nYx6aPvIdKBkavuu-1sTcyv8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "214287351142-iqu1ibq57ugqgibdj6bo1qkh26tmkp5g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
